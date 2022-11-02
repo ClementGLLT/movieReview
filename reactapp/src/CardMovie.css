@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.cardIcone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card {
+    border-radius: 16px;
+    background-color: rgb(8, 0, 52);
+    border: 2px rgb(173, 0, 170) solid;
+    filter: drop-shadow(0px 0px 8px rgb(173, 0, 170));
+
+    
+  }
+
+  .CardImg {
+    border-radius: 16px 16px 0 0;
+
+  }
+  
+  .buttonIcone {
+    height: 32px;
+    width: 32px;
+    padding: 0px !important;
+  
+  }
+  
+  .icone{
+    height: 16px;
+    width: 16px;
+    color: rgb(0, 222, 169, 0.4);;
+
+  }
+  
+  .iconeXL{
+    height: 32px;
+    width: 32px;
+    color: rgb(0, 222, 169, 0.4);
+
+  }
+  
+  .rating {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    align-items: flex-start;
+  }
+
+  .ratingStarVote {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items:flex-end;
+    width: 80px !important;
+    min-width: 80px;
+  }
+  .stars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .views {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  h5 {
+    margin: 0px !important;
+    padding-right: 8px;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+
+  }
+  
+  h4 {
+    margin: 0px !important;
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+
+  
+  }
+  
+  .card-text {
+    margin: 0px !important;
+  }
+  
+  .g3 {
+    color: rgb(219, 219, 219);
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .bold {
+    font-weight: 900;
+  }
+  
+  .cardContainer {
+    padding: 24px;
+  }
+  
+  .rateYourself {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
